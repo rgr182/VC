@@ -12,9 +12,9 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("VC_API")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+edf8201de1b7182fc1c1185ec3e244998357db02")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66e5781f661a9b49252a5a9f37dca755d0619a4a")]
 [assembly: System.Reflection.AssemblyProductAttribute("VC_API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VC_API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
