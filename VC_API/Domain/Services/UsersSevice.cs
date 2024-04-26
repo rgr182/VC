@@ -7,13 +7,14 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using VC_API.Domain.Services.Interfaces;
 using VC_API.Domain.Repositories;
+using VC_API.Entities.DTOs;
 using static System.Net.WebRequestMethods;
 
-public class UsersSevice : IuserService
+public class UsersSevice : IUserService
 {
     private readonly IUserRepository _repository;
     private readonly IConfiguration _configuration;
-    private readonly ILogger<UserService> _logger;
+    private readonly ILogger<UsersSevice> _logger;
     private readonly IEmailService _emailService;
     public UserService(IUserRepository repository,
     IConfiguration configuration, ILogger<UsersSevice> logger,

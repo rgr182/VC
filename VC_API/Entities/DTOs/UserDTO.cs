@@ -9,4 +9,9 @@
         public required string Password { get; set; } = string.Empty;
         public string AddressLine1 { get; set; } = string.Empty;
     }
+    public class EmailLoginDTO
+    {
+        public required string Email { get; set; }
+        public required string Password { get; set; }
+    }
 }
