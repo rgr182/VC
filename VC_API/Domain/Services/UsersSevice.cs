@@ -16,7 +16,7 @@ public class UsersSevice : IUserService
     private readonly IConfiguration _configuration;
     private readonly ILogger<UsersSevice> _logger;
     private readonly IEmailService _emailService;
-    public UserService(IUserRepository repository,
+    public UsersSevice(IUserRepository repository,
     IConfiguration configuration, ILogger<UsersSevice> logger,
     IEmailService emailService)
     {

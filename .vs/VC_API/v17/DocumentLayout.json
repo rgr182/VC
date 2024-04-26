@@ -1,0 +1,261 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|c:\\users\\sadhi\\documents\\github\\vc-backend\\vc_api\\domain\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|solutionrelative:vc_api\\domain\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|c:\\users\\sadhi\\documents\\github\\vc-backend\\vc_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|solutionrelative:vc_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|c:\\users\\sadhi\\documents\\github\\vc-backend\\vc_api\\domain\\services\\userssevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|solutionrelative:vc_api\\domain\\services\\userssevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|c:\\users\\sadhi\\documents\\github\\vc-backend\\vc_api\\domain\\services\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|solutionrelative:vc_api\\domain\\services\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|c:\\users\\sadhi\\documents\\github\\vc-backend\\vc_api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|solutionrelative:vc_api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|c:\\users\\sadhi\\documents\\github\\vc-backend\\vc_api\\domain\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|solutionrelative:vc_api\\domain\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|c:\\users\\sadhi\\documents\\github\\vc-backend\\vc_api\\domain\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|solutionrelative:vc_api\\domain\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|c:\\users\\sadhi\\documents\\github\\vc-backend\\vc_api\\entities\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|solutionrelative:vc_api\\entities\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|c:\\users\\sadhi\\documents\\github\\vc-backend\\vc_api\\domain\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|solutionrelative:vc_api\\domain\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|c:\\users\\sadhi\\documents\\github\\vc-backend\\vc_api\\domain\\context\\petdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|solutionrelative:vc_api\\domain\\context\\petdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|c:\\users\\sadhi\\documents\\github\\vc-backend\\vc_api\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|solutionrelative:vc_api\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|c:\\users\\sadhi\\documents\\github\\vc-backend\\vc_api\\entities\\pet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|solutionrelative:vc_api\\entities\\pet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|c:\\users\\sadhi\\documents\\github\\vc-backend\\vc_api\\migrations\\20240419041507_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|solutionrelative:vc_api\\migrations\\20240419041507_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Domain\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "VC_API\\Domain\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Domain\\Services\\EmailService.cs*",
+              "RelativeToolTip": "VC_API\\Domain\\Services\\EmailService.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T19:16:44.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Program.cs",
+              "RelativeDocumentMoniker": "VC_API\\Program.cs",
+              "ToolTip": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Program.cs*",
+              "RelativeToolTip": "VC_API\\Program.cs*",
+              "ViewState": "AQIAABEAAAAAAAAAAAAlwBkAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T19:13:08.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Domain\\Services\\Interfaces\\IEmailService.cs",
+              "RelativeDocumentMoniker": "VC_API\\Domain\\Services\\Interfaces\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Domain\\Services\\Interfaces\\IEmailService.cs",
+              "RelativeToolTip": "VC_API\\Domain\\Services\\Interfaces\\IEmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T15:55:16.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Entities\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "VC_API\\Entities\\DTOs\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Entities\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "VC_API\\Entities\\DTOs\\UserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T21:44:39.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Domain\\Repositories\\UsersRepository.cs",
+              "RelativeDocumentMoniker": "VC_API\\Domain\\Repositories\\UsersRepository.cs",
+              "ToolTip": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Domain\\Repositories\\UsersRepository.cs",
+              "RelativeToolTip": "VC_API\\Domain\\Repositories\\UsersRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T21:19:51.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Domain\\Services\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "VC_API\\Domain\\Services\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Domain\\Services\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "VC_API\\Domain\\Services\\Interfaces\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T23:09:35.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "VC_API\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "VC_API\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAA8wA4AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T23:14:23.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsersSevice.cs",
+              "DocumentMoniker": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Domain\\Services\\UsersSevice.cs",
+              "RelativeDocumentMoniker": "VC_API\\Domain\\Services\\UsersSevice.cs",
+              "ToolTip": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Domain\\Services\\UsersSevice.cs",
+              "RelativeToolTip": "VC_API\\Domain\\Services\\UsersSevice.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T21:20:08.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Domain\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "VC_API\\Domain\\Repositories\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Domain\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "VC_API\\Domain\\Repositories\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T22:02:39.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PetDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Domain\\Context\\PetDbContext.cs",
+              "RelativeDocumentMoniker": "VC_API\\Domain\\Context\\PetDbContext.cs",
+              "ToolTip": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Domain\\Context\\PetDbContext.cs",
+              "RelativeToolTip": "VC_API\\Domain\\Context\\PetDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T21:23:38.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "VC_API\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Entities\\User.cs",
+              "RelativeToolTip": "VC_API\\Entities\\User.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T21:22:16.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Pet.cs",
+              "DocumentMoniker": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Entities\\Pet.cs",
+              "RelativeDocumentMoniker": "VC_API\\Entities\\Pet.cs",
+              "ToolTip": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Entities\\Pet.cs",
+              "RelativeToolTip": "VC_API\\Entities\\Pet.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAzwAwAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T22:34:50.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20240419041507_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Migrations\\20240419041507_InitialCreate.cs",
+              "RelativeDocumentMoniker": "VC_API\\Migrations\\20240419041507_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Migrations\\20240419041507_InitialCreate.cs",
+              "RelativeToolTip": "VC_API\\Migrations\\20240419041507_InitialCreate.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBQAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T04:15:07.292Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

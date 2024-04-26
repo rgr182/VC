@@ -4,11 +4,12 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using VC_API.Domain.Services.Interfaces;
 
+
 namespace VC_API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UsersController
+    public class UsersController : ControllerBase
     {
         private readonly IUserService _service;
         private readonly ILogger<UsersController> _logger;
@@ -80,7 +81,7 @@ namespace VC_API.Controllers
         {
             try
             {
-                var token = await _service.Login(request.Email, request.Password, otp);
+                var token = await _service.Login(request.Email, request.Password);
                 if (token == null)
                 {
                     return BadRequest(new { message = "Invalid credentials" });

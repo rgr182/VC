@@ -23,6 +23,7 @@ builder.Services.AddScoped<IPetsRepository, PetsRepository>();
 builder.Services.AddScoped<IPetsService, PetsService>();
 builder.Services.AddScoped<IUserService, UsersSevice>();
 builder.Services.AddScoped<IUserRepository, UsersRepository>();
+builder.Services.AddScoped<IEmailService, EmailService>();
 
 // Register PetDbContext
 builder.Services.AddDbContext<PetDbContext>(options =>

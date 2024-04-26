@@ -1,6 +1,6 @@
-﻿namespace VC_API.Domain.Services.Interfaces
+﻿using RestSharp;
+
+public interface IEmailService
 {
-    public interface IEmailService
-    {
-    }
+    Task<RestResponse> SendEmailAsync(string to, string subject, string html);
 }
