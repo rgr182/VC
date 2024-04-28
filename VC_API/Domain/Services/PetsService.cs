@@ -1,5 +1,5 @@
-﻿using VC_API.Domain.Repositories;
-using VC_API.Entities;
+﻿using VC_API.Domain.Entities;
+using VC_API.Domain.Repositories;
 
 namespace VC_API.Domain.Services
 {

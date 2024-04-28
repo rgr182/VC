@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
+using VC_API.Domain.Entities;
 using VC_API.Domain.Services;
-using VC_API.Entities;
 
 namespace VC_API.Controllers
 {
