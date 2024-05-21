@@ -5,13 +5,20 @@ using VC_API.Entities;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
-using VC_API.Domain.Services.Interfaces;
 using VC_API.Domain.Repositories;
 using VC_API.Entities.DTOs;
 using static System.Net.WebRequestMethods;
 
+public interface IUserService
+{
+    Task<User> GetUser(int id);
+    Task<User> GetUserByEmail(string email);
+    Task<User> Register(UserRegistrationDTO request);
+    Task<string> Login(string email, string password);
+}
 public class UsersSevice : IUserService
 {
+
     private readonly IUserRepository _repository;
     private readonly IConfiguration _configuration;
     private readonly ILogger<UsersSevice> _logger;

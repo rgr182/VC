@@ -2,7 +2,7 @@
 using VC_API.Entities.DTOs;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using VC_API.Domain.Services.Interfaces;
+using VC_API.Domain.Services;
 
 
 namespace VC_API.Controllers

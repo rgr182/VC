@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using VC_API.Domain.Services;
 using VC_API.Domain.Repositories;
 using VC_API.Domain.Context;
-using VC_API.Domain.Services.Interfaces;
+
 
 var builder = WebApplication.CreateBuilder(args);
 var configuration = builder.Configuration; // Obtener la configuración

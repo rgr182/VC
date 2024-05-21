@@ -1,6 +1,10 @@
 ﻿using RestSharp;
 using RestSharp.Authenticators;
 
+public interface IEmailService
+{
+    Task<RestResponse> SendEmailAsync(string to, string subject, string html);
+}
 public class EmailService : IEmailService
 {
     private readonly IConfiguration _configuration;
