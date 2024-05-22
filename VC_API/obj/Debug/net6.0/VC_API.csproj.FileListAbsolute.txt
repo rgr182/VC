@@ -230,6 +230,7 @@ C:\Users\SadhI\Documents\GitHub\VC-Backend\VC_API\obj\Debug\net6.0\refint\VC_API
 C:\Users\SadhI\Documents\GitHub\VC-Backend\VC_API\obj\Debug\net6.0\VC_API.pdb
 C:\Users\SadhI\Documents\GitHub\VC-Backend\VC_API\obj\Debug\net6.0\VC_API.genruntimeconfig.cache
 C:\Users\SadhI\Documents\GitHub\VC-Backend\VC_API\obj\Debug\net6.0\ref\VC_API.dll
+<<<<<<< Updated upstream
 C:\Users\SadhI\Documents\GitHub\VC-Backend\VC_API\bin\Debug\net6.0\Humanizer.dll
 C:\Users\SadhI\Documents\GitHub\VC-Backend\VC_API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\SadhI\Documents\GitHub\VC-Backend\VC_API\bin\Debug\net6.0\BCrypt.Net-Next.dll
@@ -268,3 +269,5 @@ C:\Users\SadhI\Documents\GitHub\VC-Backend\VC_API\bin\Debug\net6.0\System.Compos
 C:\Users\SadhI\Documents\GitHub\VC-Backend\VC_API\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 C:\Users\SadhI\Documents\GitHub\VC-Backend\VC_API\bin\Debug\net6.0\System.Text.Json.dll
 C:\Users\SadhI\Documents\GitHub\VC-Backend\VC_API\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+=======
+>>>>>>> Stashed changes

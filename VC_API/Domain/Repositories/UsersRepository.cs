@@ -2,6 +2,12 @@
 using VC_API.Domain;
 using VC_API.Domain.Context;
 using VC_API.Entities;
+public interface IUserRepository
+{
+    Task<User> GetUser(int id);
+    Task<User> GetUserByEmail(string email);
+    Task<User> AddUser(User user);
+}
 public class UsersRepository : IUserRepository
 {
     private readonly PetDbContext _context;
