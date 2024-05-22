@@ -3,6 +3,7 @@ using VC_API.Domain.Services;
 using VC_API.Domain.Repositories;
 using VC_API.Domain.Context;
 
+
 var builder = WebApplication.CreateBuilder(args);
 var configuration = builder.Configuration; // Obtener la configuración
 
@@ -20,6 +21,9 @@ builder.Services.AddSwaggerGen();
 // Register your service
 builder.Services.AddScoped<IPetsRepository, PetsRepository>();
 builder.Services.AddScoped<IPetsService, PetsService>();
+builder.Services.AddScoped<IUserService, UsersSevice>();
+builder.Services.AddScoped<IUserRepository, UsersRepository>();
+builder.Services.AddScoped<IEmailService, EmailService>();
 
 // Register PetDbContext
 builder.Services.AddDbContext<PetDbContext>(options =>
