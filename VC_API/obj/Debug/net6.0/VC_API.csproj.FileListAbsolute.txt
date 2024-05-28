@@ -152,3 +152,14 @@ C:\Programas\VC\VC_API\obj\Debug\net6.0\refint\VC_API.dll
 C:\Programas\VC\VC_API\obj\Debug\net6.0\VC_API.pdb
 C:\Programas\VC\VC_API\obj\Debug\net6.0\VC_API.genruntimeconfig.cache
 C:\Programas\VC\VC_API\obj\Debug\net6.0\ref\VC_API.dll
+C:\Users\Administrador\Desktop\proyecto perritos\VC-Backend\VC_API\obj\Debug\net6.0\VC_API.csproj.AssemblyReference.cache
+C:\Users\Administrador\Desktop\proyecto perritos\VC-Backend\VC_API\obj\Debug\net6.0\VC_API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrador\Desktop\proyecto perritos\VC-Backend\VC_API\obj\Debug\net6.0\VC_API.AssemblyInfoInputs.cache
+C:\Users\Administrador\Desktop\proyecto perritos\VC-Backend\VC_API\obj\Debug\net6.0\VC_API.AssemblyInfo.cs
+C:\Users\Administrador\Desktop\proyecto perritos\VC-Backend\VC_API\obj\Debug\net6.0\VC_API.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Desktop\proyecto perritos\VC-Backend\VC_API\obj\Debug\net6.0\VC_API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Administrador\Desktop\proyecto perritos\VC-Backend\VC_API\obj\Debug\net6.0\VC_API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Administrador\Desktop\proyecto perritos\VC-Backend\VC_API\obj\Debug\net6.0\VC_API.sourcelink.json
+C:\Users\Administrador\Desktop\proyecto perritos\VC-Backend\VC_API\obj\Debug\net6.0\VC_API.dll
+C:\Users\Administrador\Desktop\proyecto perritos\VC-Backend\VC_API\obj\Debug\net6.0\refint\VC_API.dll
+C:\Users\Administrador\Desktop\proyecto perritos\VC-Backend\VC_API\obj\Debug\net6.0\VC_API.pdb

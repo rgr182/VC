@@ -2481,19 +2481,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rgr_1\\.nuget\\packages\\": {}
+    "C:\\Users\\Administrador\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Programas\\VC\\VC_API\\VC_API.csproj",
+      "projectUniqueName": "C:\\Users\\Administrador\\Desktop\\proyecto perritos\\VC-Backend\\VC_API\\VC_API.csproj",
       "projectName": "VC_API",
-      "projectPath": "C:\\Programas\\VC\\VC_API\\VC_API.csproj",
-      "packagesPath": "C:\\Users\\rgr_1\\.nuget\\packages\\",
-      "outputPath": "C:\\Programas\\VC\\VC_API\\obj\\",
+      "projectPath": "C:\\Users\\Administrador\\Desktop\\proyecto perritos\\VC-Backend\\VC_API\\VC_API.csproj",
+      "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Administrador\\Desktop\\proyecto perritos\\VC-Backend\\VC_API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\rgr_1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2559,7 +2559,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
