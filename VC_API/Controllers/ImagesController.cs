@@ -18,7 +18,7 @@ namespace VC_API.Controllers
         {
             try
             {
-                string path = Path.Combine(@"C:\\Users\\SadhI\\Desktop\\Images", images.PetId.ToString() + ".png");
+                string path = Path.Combine(@"C:\\Users\\saulf\\OneDrive\\Escritorio\\Images", images.PetId.ToString() + ".png");
                 using (Stream stream = new FileStream(path, FileMode.Create))
                 {
                     images.File.CopyTo(stream);
@@ -37,7 +37,7 @@ namespace VC_API.Controllers
             try
             {
                 
-                string path = Path.Combine(@"C:\\Users\\SadhI\\Desktop\\Images", Id.ToString()+ ".png");
+                string path = Path.Combine(@"C:\\Users\\saulf\\OneDrive\\Escritorio\\Images", Id.ToString()+ ".png");
                 stream2 = new FileStream(path, FileMode.Open);
                 return stream2;
                     

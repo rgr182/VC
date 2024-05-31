@@ -5,7 +5,7 @@ using VC_API.Domain.Context;
 
 
 var builder = WebApplication.CreateBuilder(args);
-var configuration = builder.Configuration; // Obtener la configuración
+var configuration = builder.Configuration; // Obtener la configuraciï¿½n
 
 builder.Services.AddCors(o =>
       o.AddPolicy("corsapp", b =>
