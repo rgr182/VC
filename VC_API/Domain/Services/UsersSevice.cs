@@ -78,6 +78,10 @@ public class UsersSevice : IUserService
         {
             return null;
         }
+        if (!CheckHash(user, password))
+        {
+            throw new Exception("Invalid credentials");
+        }
         var tokenHandler = new JwtSecurityTokenHandler();
         //TODO - Use Azure keystore for production
         var key = Encoding.UTF8.GetBytes(_configuration.GetSection("AppSettings:Token").Value!);
@@ -95,6 +99,10 @@ public class UsersSevice : IUserService
     public async Task<User> GetUserByEmail(string email)
     {
         return await _repository.GetUserByEmail(email);
+    }
+    private bool CheckHash(User user, string password)
+    {
+        return BCrypt.Net.BCrypt.Verify(password, user.Password);
     }
 }
 
