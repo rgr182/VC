@@ -1,11 +1,5 @@
-﻿using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using PetStoreBackend.Data;
+﻿using PetStoreBackend.Data;
 using Microsoft.EntityFrameworkCore;
-using VC_API.Domain.Data;
 
 namespace PetStoreBackend
 {

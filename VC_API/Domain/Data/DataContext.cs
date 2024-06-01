@@ -10,24 +10,6 @@ namespace PetStoreBackend.Data
         public DbSet<Product> Products { get; set; }
         public DbSet<ClothingAndAccessories> ClothingAndAccessories { get; set; }
         public DbSet<Toy> Toys { get; set; }
-        public DbSet<MedicinesAndFood> MedicinesAndFood { get; set; }
-
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Product>()
-                .HasMany(p => p.ClothingAndAccessories)
-                .WithOne(ca => ca.Product)
-                .HasForeignKey(ca => ca.ProductID);
-
-            modelBuilder.Entity<Product>()
-                .HasMany(p => p.Toys)
-                .WithOne(t => t.Product)
-                .HasForeignKey(t => t.ProductID);
-
-            modelBuilder.Entity<Product>()
-                .HasMany(p => p.MedicinesAndFood)
-                .WithOne(mf => mf.Product)
-                .HasForeignKey(mf => mf.ProductID);
-        }
+        public DbSet<MedicinesAndFood> MedicinesAndFood { get; set; }       
     }
 }

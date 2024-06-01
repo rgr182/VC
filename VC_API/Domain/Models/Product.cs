@@ -1,12 +1,11 @@
-﻿namespace PetStoreBackend.Models
+namespace PetStoreBackend.Models
 {
+    using System.ComponentModel.DataAnnotations;
     public class Product
     {
+        [Key]
         public int ProductID { get; set; }
         public string ProductCategory { get; set; }
-
-        public ICollection<ClothingAndAccessories> ClothingAndAccessories { get; set; }
-        public ICollection<Toy> Toys { get; set; }
-        public ICollection<MedicinesAndFood> MedicinesAndFood { get; set; }
+        public ClothingAndAccessories ProductAccesory{ get; set; }
     }
 }

@@ -10,6 +10,6 @@ namespace VC_API.Domain.Context
         }
 
         public DbSet<Pets> Pets { get; set; }
-       
+        public DbSet<Toys> Toys { get; set; }
     }
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrador\\Desktop\\proyecto perritos\\VC-Backend\\VC_API\\VC_API.csproj": {}
+    "C:\\Users\\max_s\\OneDrive\\Desktop\\respaldo lap programador\\proyecto perritos\\VC-Backend\\VC_API\\VC_API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrador\\Desktop\\proyecto perritos\\VC-Backend\\VC_API\\VC_API.csproj": {
+    "C:\\Users\\max_s\\OneDrive\\Desktop\\respaldo lap programador\\proyecto perritos\\VC-Backend\\VC_API\\VC_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrador\\Desktop\\proyecto perritos\\VC-Backend\\VC_API\\VC_API.csproj",
+        "projectUniqueName": "C:\\Users\\max_s\\OneDrive\\Desktop\\respaldo lap programador\\proyecto perritos\\VC-Backend\\VC_API\\VC_API.csproj",
         "projectName": "VC_API",
-        "projectPath": "C:\\Users\\Administrador\\Desktop\\proyecto perritos\\VC-Backend\\VC_API\\VC_API.csproj",
-        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrador\\Desktop\\proyecto perritos\\VC-Backend\\VC_API\\obj\\",
+        "projectPath": "C:\\Users\\max_s\\OneDrive\\Desktop\\respaldo lap programador\\proyecto perritos\\VC-Backend\\VC_API\\VC_API.csproj",
+        "packagesPath": "C:\\Users\\max_s\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\max_s\\OneDrive\\Desktop\\respaldo lap programador\\proyecto perritos\\VC-Backend\\VC_API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\max_s\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,6 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -72,6 +78,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -80,7 +104,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
