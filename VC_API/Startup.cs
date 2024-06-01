@@ -1,5 +1,5 @@
-﻿using PetStoreBackend.Data;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using VC_API.Domain.Context;
 
 namespace PetStoreBackend
 {
@@ -15,7 +15,7 @@ namespace PetStoreBackend
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddDbContext<DataContext>(options =>
+            services.AddDbContext<PetDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddCors(options =>
             {

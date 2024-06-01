@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using PetStoreBackend.Data;
 using PetStoreBackend.Models;
+using VC_API.Domain.Context;
 
 namespace PetStoreBackend.Controllers
 {
@@ -9,9 +8,9 @@ namespace PetStoreBackend.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
-        private readonly DataContext _context;
+        private readonly PetDbContext _context;
 
-        public ProductsController(DataContext context)
+        public ProductsController(PetDbContext context)
         {
             _context = context;
         }
