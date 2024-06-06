@@ -1,11 +1,12 @@
 ﻿using VC_API.Domain.Repositories;
 using VC_API.Entities;
+using VC_API.Entities.DTOs;
 
 namespace VC_API.Domain.Services
 {
     public interface IPetsService
     {
-        Task<List<Pets>> GetAllPetsAsync();
+        Task<IEnumerable<PetDTO>> GetAllPetsAsync();
         Task<Pets> GetPetByIdAsync(int id);
         Task AddPetAsync(Pets pet);
         Task UpdatePetAsync(Pets pet);
@@ -21,7 +22,7 @@ namespace VC_API.Domain.Services
             _petRepository = petRepository;
         }
 
-        public async Task<List<Pets>> GetAllPetsAsync()
+        public async Task<IEnumerable<PetDTO>> GetAllPetsAsync()
         {
             return await _petRepository.GetAllPetsAsync();
         }
