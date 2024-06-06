@@ -1,4 +1,6 @@
-﻿namespace VC_API.Entities.DTOs
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace VC_API.Entities.DTOs
 {
     public class PetDTO
     {

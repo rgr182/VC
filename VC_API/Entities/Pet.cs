@@ -20,5 +20,7 @@ namespace VC_API.Entities
         public double Longitude { get; set; }
         public DateTime? CreatedDate { get; set; }
         public bool status { get; set; }
+        [NotMapped]
+        public required IFormFile File { get; set; }
     }
 }
