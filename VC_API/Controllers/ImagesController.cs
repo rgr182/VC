@@ -18,11 +18,18 @@ namespace VC_API.Controllers
         {
             try
             {
-                string path = Path.Combine(@"C:\\Users\\SadhI\\Desktop\\Images", images.PetId.ToString() + ".png");
+                var directoryPath = "~\\Images\\";
+                if (!Directory.Exists(directoryPath))
+                {
+                    Directory.CreateDirectory(directoryPath);
+                }
+                var fileName = Path.GetFileName(images.PetId.ToString() + ".png");
+                var path = Path.Combine("~\\Images\\", fileName);
                 using (Stream stream = new FileStream(path, FileMode.Create))
                 {
                     images.File.CopyTo(stream);
                 }
+
                 return Task.FromResult<IActionResult>(Ok(new { message = "Image added successfully"}));
             }
             catch (Exception ex)
@@ -37,7 +44,7 @@ namespace VC_API.Controllers
             try
             {
                 
-                string path = Path.Combine(@"C:\\Users\\SadhI\\Desktop\\Images", Id.ToString()+ ".png");
+                string path = Path.Combine(@"~\Images", Id.ToString()+ ".png");
                 stream2 = new FileStream(path, FileMode.Open);
                 return stream2;
                     

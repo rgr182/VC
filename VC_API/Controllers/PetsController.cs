@@ -110,40 +110,5 @@ namespace VC_API.Controllers
                 return StatusCode(500, "Error deleting the pet.");
             }
         }
-        [HttpPost("Upload Image")]
-        public Task<IActionResult> UploadFile(int id, IFormFile images)
-        {
-            try
-            {
-                string path = Path.Combine(@"C:\\Users\\SadhI\\Desktop\\Images", id.ToString() + ".png");
-                using (Stream stream = new FileStream(path, FileMode.Create))
-                {
-                    images.CopyTo(stream);
-                }
-                return Task.FromResult<IActionResult>(Ok(new { message = "Image added successfully" }));
-            }
-            catch (Exception ex)
-            {
-                return Task.FromResult<IActionResult>(BadRequest(ex.Message));
-            }
-        }
-        [HttpPost("Show")]
-        public Stream GetFile(int Id)
-        {
-            Stream stream2 = null;
-            try
-            {
-
-                string path = Path.Combine(@"C:\\Users\\SadhI\\Desktop\\Images", Id.ToString() + ".png");
-                stream2 = new FileStream(path, FileMode.Open);
-                return stream2;
-
-
-            }
-            catch (Exception ex)
-            {
-                return stream2;
-            }
-        }
     }
 }
