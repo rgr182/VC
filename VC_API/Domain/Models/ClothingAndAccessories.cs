@@ -1,9 +1,14 @@
-﻿namespace PetStoreBackend.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
+
+namespace PetStoreBackend.Models
 {
     public class ClothingAndAccessories
     {
-        public int ClothingAndAccessoriesID { get; set; }
-        public int ProductID { get; set; }
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int ClothingAndAccessoriesId { get; set; }
+        public int ProductId { get; set; }
         public string CategoryType { get; set; }
         public string ItemName { get; set; }
         public decimal Price { get; set; }

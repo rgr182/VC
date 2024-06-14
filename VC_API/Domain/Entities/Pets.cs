@@ -9,7 +9,7 @@ namespace VC_API.Domain.Entities
         [JsonIgnore]
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int PetId { get; set; }
+        public int PetsId { get; set; }
         public string? Name { get; set; }
         public string? Description { get; set; }
         public string? Color { get; set; }

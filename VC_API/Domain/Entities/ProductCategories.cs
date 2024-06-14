@@ -5,8 +5,7 @@ using System.Text.Json.Serialization;
 namespace VC_API.Domain.Entities
 {
     public class ProductCategory
-    {
-
+    { 
         [JsonIgnore]
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

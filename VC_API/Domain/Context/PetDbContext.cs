@@ -14,6 +14,6 @@ namespace VC_API.Domain.Context
         public DbSet<ClothingAndAccessories> ClothingAndAccessories { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<MedicinesAndFood> MedicinesAndFood { get; set; }
-        public DbSet<ProductCategory> ProductCategory { get; set; }
+        public DbSet<ProductCategories> ProductCategory { get; set; }
     }
 }

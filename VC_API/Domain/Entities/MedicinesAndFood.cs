@@ -7,7 +7,6 @@ namespace VC_API.Domain.Entities
 {
     public class MedicinesAndFood
     {
-
         [JsonIgnore]
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

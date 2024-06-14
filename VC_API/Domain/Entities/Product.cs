@@ -7,6 +7,8 @@ namespace VC_API.Domain.Entities
 {
     public class Product
     {
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ProductId { get; set; }
 
         public int CategoryName { get; set; }

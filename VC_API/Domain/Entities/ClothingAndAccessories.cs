@@ -11,7 +11,7 @@ namespace VC_API.Domain.Entities
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
 
-        public int PetIdClothingAndAccessoriesId { get; set; }
+        public int ClothingAndAccessoriesId { get; set; }
 
         public int ProductId { get; set; }
 
