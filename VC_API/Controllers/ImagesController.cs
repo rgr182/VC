@@ -4,6 +4,7 @@ using VC_API.Entities;
 using System.IO;
 using Microsoft.AspNetCore.Http.HttpResults;
 using VC_API.Domain.Services;
+using VC_API.Entities.DTOs;
 
 namespace VC_API.Controllers
 {
@@ -11,23 +12,26 @@ namespace VC_API.Controllers
     [ApiController]
     public class ImagesController : ControllerBase
     {
-
+        private readonly ILogger<ImagesController> _logger;
+        private readonly IImagesService _Imagesservice;
+        public ImagesController(ILogger<ImagesController> logger, IImagesService imagesservice)
+        {
+            _logger = logger;
+            _Imagesservice = imagesservice;
+        }
 
         [HttpPost("Upload")]
-        public Task<IActionResult> UploadFile([FromForm] Images images)
+        public async Task<IActionResult> UploadFile(ImagesDTO images)
         {
             try
             {
-                string path = Path.Combine(@"C:\\Users\\saulf\\OneDrive\\Escritorio\\Images", images.PetId.ToString() + ".png");
-                using (Stream stream = new FileStream(path, FileMode.Create))
-                {
-                    images.File.CopyTo(stream);
-                }
-                return Task.FromResult<IActionResult>(Ok(new { message = "Image added successfully"}));
+                await _Imagesservice.addImage(images);
+                return Ok(images);
             }
             catch (Exception ex)
             {
-                return Task.FromResult<IActionResult>(BadRequest(ex.Message));
+                _logger.LogError(ex, "Error saving the image.");
+                return StatusCode(500, "Error saving the image.");
             }
         }
         [HttpPost("Show")]
@@ -36,16 +40,30 @@ namespace VC_API.Controllers
             Stream stream2 = null;
             try
             {
-                
-                string path = Path.Combine(@"C:\\Users\\saulf\\OneDrive\\Escritorio\\Images", Id.ToString()+ ".png");
+                string path = Path.Combine("~\\Images\\", Id.ToString()+ ".png");
                 stream2 = new FileStream(path, FileMode.Open);
                 return stream2;
-                    
-
             }
             catch (Exception ex)
             {
                 return stream2;
+            }
+        }
+        [HttpPost("ImageUrl")]
+        public async Task<IActionResult> getImageURL(int petId)
+        {
+            try
+            {
+                var image = await _Imagesservice.getImageURL(petId);
+                if (image == null)
+                    return NotFound();
+
+                return Ok(image);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error getting the image.");
+                return StatusCode(500, "Error getting the image.");
             }
         }
     }
