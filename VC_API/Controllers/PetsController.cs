@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using VC_API.Domain.Services;
 using VC_API.Entities;
+using VC_API.Entities.DTOs;
 
 namespace VC_API.Controllers
 {
@@ -19,7 +20,7 @@ namespace VC_API.Controllers
 
         // Add a new pet
         [HttpPost(Name = "SavePet")]
-        public async Task<IActionResult> SavePet([FromBody] Pets pet)
+        public async Task<IActionResult> SavePet(PetDTO pet)
         {
             try
             {                

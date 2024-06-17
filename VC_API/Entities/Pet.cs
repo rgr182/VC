@@ -20,5 +20,6 @@ namespace VC_API.Entities
         public double Longitude { get; set; }
         public DateTime? CreatedDate { get; set; }
         public bool status { get; set; }
+        public string ImageURL { get; set; }
     }
 }

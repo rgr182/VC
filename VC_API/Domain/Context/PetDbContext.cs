@@ -11,7 +11,6 @@ namespace VC_API.Domain.Context
 
         public DbSet<Pets> Pets { get; set; }
         public DbSet<User> Users { get; set; }
-        public DbSet<Images> Images { get; set; }
        
     }
 }

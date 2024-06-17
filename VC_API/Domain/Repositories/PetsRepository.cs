@@ -1,15 +1,17 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using VC_API.Domain.Context;
 using VC_API.Entities;
 using VC_API.Entities.DTOs;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace VC_API.Domain.Repositories
 {
     public interface IPetsRepository
     {
-        Task<IEnumerable<PetDTO>> GetAllPetsAsync();
+        Task<List<Pets>> GetAllPetsAsync();
         Task<Pets> GetPetByIdAsync(int id);
-        Task AddPetAsync(Pets pet);
+        Task AddPetAsync(PetDTO pet);
         Task UpdatePetAsync(Pets pet);
         Task DeletePetAsync(int id);
     }
@@ -23,35 +25,9 @@ namespace VC_API.Domain.Repositories
             _dbContext = dbContext;
         }
 
-        public async Task<IEnumerable<PetDTO>> GetAllPetsAsync()
+        public async Task<List<Pets>> GetAllPetsAsync()
         {
-            var query = from pet in _dbContext.Pets
-                        select new 
-                        { 
-                            petId = pet.PetId,
-                            name = pet.Name,
-                            description = pet.Description,
-                            color = pet.Color,
-                            gender = pet.Gender,
-                            address = pet.Address,
-                            latitude = pet.Latitude,
-                            longitude = pet.Longitude,
-                            createdDate = pet.CreatedDate,
-                            Status = pet.status
-                        };
-            var result = await query.ToListAsync();
-            return result.Select(r => new PetDTO { 
-                PetId = r.petId,
-                Name = r.name,
-                Description = r.description,
-                Color = r.color,
-                Gender = r.gender,
-                Address = r.address,
-                Latitude = r.latitude,
-                Longitude = r.longitude,
-                CreatedDate = r.createdDate,
-                status = r.Status
-            });
+            return await _dbContext.Pets.ToListAsync();
         }
 
         public async Task<Pets> GetPetByIdAsync(int id)
@@ -59,12 +35,36 @@ namespace VC_API.Domain.Repositories
             return await _dbContext.Pets.FindAsync(id);
         }
 
-        public async Task AddPetAsync(Pets pet)
+        public async Task AddPetAsync(PetDTO pet)
         {
             try
             {
-                _dbContext.Pets.Add(pet);
+                var directoryPath = "~\\Images\\";
+                if (!Directory.Exists(directoryPath))
+                {
+                    Directory.CreateDirectory(directoryPath);
+                }
+                var fileName = Path.GetFileName(pet.Latitude.ToString()+pet.Longitude + ".png");
+                var path = Path.Combine("~\\Images\\", fileName);
+                var newPet = new Pets
+                {
+                    Name = pet.Name,
+                    Description = pet.Description,
+                    Color = pet.Color,
+                    Gender = pet.Gender,
+                    Address = pet.Address,
+                    Latitude = pet.Latitude,
+                    Longitude = pet.Longitude,
+                    CreatedDate = DateTime.Now,
+                    status = pet.status,
+                    ImageURL = path
+                };
+                _dbContext.Pets.Add(newPet);
                 await _dbContext.SaveChangesAsync();
+                using (Stream stream = new FileStream(path, FileMode.Create))
+                {
+                    pet.File.CopyTo(stream);
+                };
             }
             catch (Exception ex)
             {
