@@ -6,9 +6,9 @@ namespace VC_API.Domain.Services
 {
     public interface IPetsService
     {
-        Task<IEnumerable<PetDTO>> GetAllPetsAsync();
+        Task<List<Pets>> GetAllPetsAsync();
         Task<Pets> GetPetByIdAsync(int id);
-        Task AddPetAsync(Pets pet);
+        Task AddPetAsync(PetDTO pet);
         Task UpdatePetAsync(Pets pet);
         Task DeletePetAsync(int id);
     }
@@ -22,7 +22,7 @@ namespace VC_API.Domain.Services
             _petRepository = petRepository;
         }
 
-        public async Task<IEnumerable<PetDTO>> GetAllPetsAsync()
+        public async Task<List<Pets>> GetAllPetsAsync()
         {
             return await _petRepository.GetAllPetsAsync();
         }
@@ -32,7 +32,7 @@ namespace VC_API.Domain.Services
             return await _petRepository.GetPetByIdAsync(id);
         }
 
-        public async Task AddPetAsync(Pets pet)
+        public async Task AddPetAsync(PetDTO pet)
         {
             await _petRepository.AddPetAsync(pet);
         }
