@@ -2,6 +2,10 @@ using Microsoft.AspNetCore.Mvc;
 using VC_API.Domain.Services;
 using VC_API.Entities;
 using VC_API.Entities.DTOs;
+using Microsoft.Extensions.Logging;
+using System;
+using System.IO;
+using System.Threading.Tasks;
 
 namespace VC_API.Controllers
 {
@@ -53,13 +57,20 @@ namespace VC_API.Controllers
             }
         }
 
-        // Endpoint para obtener todos los perros
-        [HttpGet]
+        // Endpoint para obtener todos los perros con rutas de imágenes ajustadas
+        [HttpGet(Name = "GetAllPets")]
         public async Task<IActionResult> GetAllPets()
         {
             try
             {
                 var pets = await _petService.GetAllPetsAsync();
+
+                foreach (var pet in pets)
+                {
+                    // Ajusta la ruta de la imagen para que sea accesible desde el navegador
+                    pet.ImageURL = $"{Request.Scheme}://{Request.Host}/Images/{Path.GetFileName(pet.ImageURL)}";
+                }
+
                 return Ok(pets);
             }
             catch (Exception ex)
