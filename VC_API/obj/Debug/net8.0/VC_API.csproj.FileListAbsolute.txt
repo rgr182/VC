@@ -172,3 +172,14 @@ C:\Users\SadhI\Documents\GitHub\VC-Backend\VC_API\obj\Debug\net8.0\refint\VC_API
 C:\Users\SadhI\Documents\GitHub\VC-Backend\VC_API\obj\Debug\net8.0\VC_API.pdb
 C:\Users\SadhI\Documents\GitHub\VC-Backend\VC_API\obj\Debug\net8.0\VC_API.genruntimeconfig.cache
 C:\Users\SadhI\Documents\GitHub\VC-Backend\VC_API\obj\Debug\net8.0\ref\VC_API.dll
+C:\Users\saulf\OneDrive\Documentos\GitHub\VC-Backend\VC_API\obj\Debug\net8.0\VC_API.csproj.AssemblyReference.cache
+C:\Users\saulf\OneDrive\Documentos\GitHub\VC-Backend\VC_API\obj\Debug\net8.0\VC_API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saulf\OneDrive\Documentos\GitHub\VC-Backend\VC_API\obj\Debug\net8.0\VC_API.AssemblyInfoInputs.cache
+C:\Users\saulf\OneDrive\Documentos\GitHub\VC-Backend\VC_API\obj\Debug\net8.0\VC_API.AssemblyInfo.cs
+C:\Users\saulf\OneDrive\Documentos\GitHub\VC-Backend\VC_API\obj\Debug\net8.0\VC_API.csproj.CoreCompileInputs.cache
+C:\Users\saulf\OneDrive\Documentos\GitHub\VC-Backend\VC_API\obj\Debug\net8.0\VC_API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\saulf\OneDrive\Documentos\GitHub\VC-Backend\VC_API\obj\Debug\net8.0\VC_API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\saulf\OneDrive\Documentos\GitHub\VC-Backend\VC_API\obj\Debug\net8.0\VC_API.sourcelink.json
+C:\Users\saulf\OneDrive\Documentos\GitHub\VC-Backend\VC_API\obj\Debug\net8.0\VC_API.dll
+C:\Users\saulf\OneDrive\Documentos\GitHub\VC-Backend\VC_API\obj\Debug\net8.0\refint\VC_API.dll
+C:\Users\saulf\OneDrive\Documentos\GitHub\VC-Backend\VC_API\obj\Debug\net8.0\VC_API.pdb
