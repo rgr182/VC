@@ -1,5 +1,6 @@
-﻿using VC_API.Domain.Entities;
-using VC_API.Domain.Repositories;
+﻿using VC_API.Domain.Repositories;
+using VC_API.Entities;
+using VC_API.Entities.DTOs;
 
 namespace VC_API.Domain.Services
 {
@@ -7,7 +8,7 @@ namespace VC_API.Domain.Services
     {
         Task<List<Pets>> GetAllPetsAsync();
         Task<Pets> GetPetByIdAsync(int id);
-        Task AddPetAsync(Pets pet);
+        Task AddPetAsync(PetDTO pet);
         Task UpdatePetAsync(Pets pet);
         Task DeletePetAsync(int id);
     }
@@ -31,7 +32,7 @@ namespace VC_API.Domain.Services
             return await _petRepository.GetPetByIdAsync(id);
         }
 
-        public async Task AddPetAsync(Pets pet)
+        public async Task AddPetAsync(PetDTO pet)
         {
             await _petRepository.AddPetAsync(pet);
         }

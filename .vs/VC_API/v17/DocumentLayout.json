@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|c:\\users\\sadhi\\documents\\github\\vc-backend\\vc_api\\entities\\pet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|solutionrelative:vc_api\\entities\\pet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|c:\\users\\sadhi\\documents\\github\\vc-backend\\vc_api\\entities\\images.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|solutionrelative:vc_api\\entities\\images.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|c:\\users\\sadhi\\documents\\github\\vc-backend\\vc_api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|solutionrelative:vc_api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|c:\\users\\sadhi\\documents\\github\\vc-backend\\vc_api\\domain\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|solutionrelative:vc_api\\domain\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|c:\\users\\sadhi\\documents\\github\\vc-backend\\vc_api\\domain\\services\\userssevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,16 +19,20 @@
       "RelativeMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|solutionrelative:vc_api\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|c:\\users\\sadhi\\documents\\github\\vc-backend\\vc_api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|solutionrelative:vc_api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|c:\\users\\sadhi\\documents\\github\\vc-backend\\vc_api\\entities\\relations\\userhaspet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|solutionrelative:vc_api\\entities\\relations\\userhaspet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|c:\\users\\sadhi\\documents\\github\\vc-backend\\vc_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|solutionrelative:vc_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|c:\\users\\sadhi\\documents\\github\\vc-backend\\vc_api\\entities\\pet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|solutionrelative:vc_api\\entities\\pet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|c:\\users\\sadhi\\documents\\github\\vc-backend\\vc_api\\domain\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|solutionrelative:vc_api\\domain\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|c:\\users\\sadhi\\documents\\github\\vc-backend\\vc_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C578BFFA-6117-4AF4-AEB6-EE057DF3BC1D}|VC_API\\VC_API.csproj|solutionrelative:vc_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,12 +67,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Images.cs",
+              "DocumentMoniker": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Entities\\Images.cs",
+              "RelativeDocumentMoniker": "VC_API\\Entities\\Images.cs",
+              "ToolTip": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Entities\\Images.cs*",
+              "RelativeToolTip": "VC_API\\Entities\\Images.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T16:54:20.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Pet.cs",
               "DocumentMoniker": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Entities\\Pet.cs",
               "RelativeDocumentMoniker": "VC_API\\Entities\\Pet.cs",
-              "ToolTip": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Entities\\Pet.cs*",
-              "RelativeToolTip": "VC_API\\Entities\\Pet.cs*",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBYAAAAoAAAA",
+              "ToolTip": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Entities\\Pet.cs",
+              "RelativeToolTip": "VC_API\\Entities\\Pet.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBYAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-22T01:10:12.604Z",
               "EditorCaption": ""
@@ -81,19 +98,19 @@
               "RelativeDocumentMoniker": "VC_API\\Entities\\User.cs",
               "ToolTip": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Entities\\User.cs",
               "RelativeToolTip": "VC_API\\Entities\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-22T01:09:01.652Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "UserHasPet.cs",
               "DocumentMoniker": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Entities\\Relations\\UserHasPet.cs",
               "RelativeDocumentMoniker": "VC_API\\Entities\\Relations\\UserHasPet.cs",
-              "ToolTip": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Entities\\Relations\\UserHasPet.cs*",
-              "RelativeToolTip": "VC_API\\Entities\\Relations\\UserHasPet.cs*",
+              "ToolTip": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Entities\\Relations\\UserHasPet.cs",
+              "RelativeToolTip": "VC_API\\Entities\\Relations\\UserHasPet.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-22T00:53:07.268Z",
@@ -107,39 +124,40 @@
               "RelativeDocumentMoniker": "VC_API\\Domain\\Services\\UsersSevice.cs",
               "ToolTip": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Domain\\Services\\UsersSevice.cs",
               "RelativeToolTip": "VC_API\\Domain\\Services\\UsersSevice.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAA7AAAA",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAIwDoAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-21T22:23:07.264Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "VC_API\\Controllers\\UsersController.cs",
               "ToolTip": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Controllers\\UsersController.cs",
               "RelativeToolTip": "VC_API\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAuwAQAAAAdAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-21T21:51:59.115Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "UsersRepository.cs",
               "DocumentMoniker": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Domain\\Repositories\\UsersRepository.cs",
               "RelativeDocumentMoniker": "VC_API\\Domain\\Repositories\\UsersRepository.cs",
               "ToolTip": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Domain\\Repositories\\UsersRepository.cs",
               "RelativeToolTip": "VC_API\\Domain\\Repositories\\UsersRepository.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAQwAoAAAAuAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwAoAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T22:23:04.431Z"
+              "WhenOpened": "2024-05-21T22:23:04.431Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\SadhI\\Documents\\GitHub\\VC-Backend\\VC_API\\Program.cs",
               "RelativeDocumentMoniker": "VC_API\\Program.cs",

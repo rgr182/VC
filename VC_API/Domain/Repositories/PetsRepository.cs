@@ -1,6 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using VC_API.Domain.Context;
-using VC_API.Domain.Entities;
+using VC_API.Entities;
+using VC_API.Entities.DTOs;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace VC_API.Domain.Repositories
 {
@@ -8,7 +11,7 @@ namespace VC_API.Domain.Repositories
     {
         Task<List<Pets>> GetAllPetsAsync();
         Task<Pets> GetPetByIdAsync(int id);
-        Task AddPetAsync(Pets pet);
+        Task AddPetAsync(PetDTO pet);
         Task UpdatePetAsync(Pets pet);
         Task DeletePetAsync(int id);
     }
@@ -32,12 +35,36 @@ namespace VC_API.Domain.Repositories
             return await _dbContext.Pets.FindAsync(id);
         }
 
-        public async Task AddPetAsync(Pets pet)
+        public async Task AddPetAsync(PetDTO pet)
         {
             try
             {
-                _dbContext.Pets.Add(pet);
+                var directoryPath = "~\\Images\\";
+                if (!Directory.Exists(directoryPath))
+                {
+                    Directory.CreateDirectory(directoryPath);
+                }
+                var fileName = Path.GetFileName(pet.Latitude.ToString()+pet.Longitude + ".png");
+                var path = Path.Combine("~\\Images\\", fileName);
+                var newPet = new Pets
+                {
+                    Name = pet.Name,
+                    Description = pet.Description,
+                    Color = pet.Color,
+                    Gender = pet.Gender,
+                    Address = pet.Address,
+                    Latitude = pet.Latitude,
+                    Longitude = pet.Longitude,
+                    CreatedDate = DateTime.Now,
+                    status = pet.status,
+                    ImageURL = path
+                };
+                _dbContext.Pets.Add(newPet);
                 await _dbContext.SaveChangesAsync();
+                using (Stream stream = new FileStream(path, FileMode.Create))
+                {
+                    pet.File.CopyTo(stream);
+                };
             }
             catch (Exception ex)
             {

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VC_API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60c04bc17da643d9e5dc0695144c018571dde587")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5361ca526dfd615c3f3bd7dc9f6909a3c915c706")]
 [assembly: System.Reflection.AssemblyProductAttribute("VC_API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VC_API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

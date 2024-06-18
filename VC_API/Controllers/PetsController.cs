@@ -1,8 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
-using VC_API.Domain.Entities;
 using VC_API.Domain.Services;
-using System;
-using System.Threading.Tasks;
+using VC_API.Entities;
+using VC_API.Entities.DTOs;
 
 namespace VC_API.Controllers
 {
@@ -19,27 +18,23 @@ namespace VC_API.Controllers
             _petService = petService;
         }
 
-        /// <summary>
-        /// Agrega una nueva mascota.
-        /// </summary>
+        // Add a new pet
         [HttpPost(Name = "SavePet")]
-        public async Task<IActionResult> SavePet([FromBody] Pets pet)
+        public async Task<IActionResult> SavePet(PetDTO pet)
         {
             try
-            {
+            {                
                 await _petService.AddPetAsync(pet);
                 return Ok(pet);
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error al guardar la mascota.");
-                return StatusCode(500, "Error al guardar la mascota.");
+                _logger.LogError(ex, "Error saving the pet.");
+                return StatusCode(500, "Error saving the pet.");
             }
         }
 
-        /// <summary>
-        /// Obtiene una mascota por su ID.
-        /// </summary>
+        // Get a pet by ID
         [HttpGet("{id}", Name = "GetPet")]
         public async Task<IActionResult> GetPet(int id)
         {
@@ -53,14 +48,12 @@ namespace VC_API.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error al obtener la mascota.");
-                return StatusCode(500, "Error al obtener la mascota.");
+                _logger.LogError(ex, "Error getting the pet.");
+                return StatusCode(500, "Error getting the pet.");
             }
         }
 
-        /// <summary>
-        /// Obtiene todas las mascotas.
-        /// </summary>
+        // Endpoint para obtener todos los perros
         [HttpGet]
         public async Task<IActionResult> GetAllPets()
         {
@@ -71,14 +64,12 @@ namespace VC_API.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error al obtener todas las mascotas.");
-                return StatusCode(500, "Error al obtener todas las mascotas.");
+                _logger.LogError(ex, "Error getting all pets.");
+                return StatusCode(500, "Error getting all pets.");
             }
         }
 
-        /// <summary>
-        /// Actualiza una mascota existente.
-        /// </summary>
+        // Update an existing pet
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdatePet(int id, Pets pet)
         {
@@ -96,14 +87,12 @@ namespace VC_API.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error al actualizar la mascota.");
-                return StatusCode(500, "Error al actualizar la mascota.");
+                _logger.LogError(ex, "Error updating the pet.");
+                return StatusCode(500, "Error updating the pet.");
             }
         }
 
-        /// <summary>
-        /// Elimina una mascota existente.
-        /// </summary>
+        // Delete an existing pet
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeletePet(int id)
         {
@@ -118,8 +107,8 @@ namespace VC_API.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error al eliminar la mascota.");
-                return StatusCode(500, "Error al eliminar la mascota.");
+                _logger.LogError(ex, "Error deleting the pet.");
+                return StatusCode(500, "Error deleting the pet.");
             }
         }
     }

@@ -78,6 +78,10 @@ public class UsersSevice : IUserService
         {
             return null;
         }
+        if (!CheckHash(user, password))
+        {
+            throw new Exception("Invalid credentials");
+        }
         var tokenHandler = new JwtSecurityTokenHandler();
         //TODO - Use Azure keystore for production
         var key = Encoding.UTF8.GetBytes(_configuration.GetSection("AppSettings:Token").Value!);
@@ -85,7 +89,7 @@ public class UsersSevice : IUserService
         var tokenDescriptor = new SecurityTokenDescriptor
         {
             Subject = new ClaimsIdentity(new[] {
-                new Claim(ClaimTypes.Name, user.Id.ToString())}),
+                new Claim(ClaimTypes.Name, user.UserId.ToString())}),
             Expires = DateTime.UtcNow.AddDays(1),
             SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
         };
@@ -95,6 +99,10 @@ public class UsersSevice : IUserService
     public async Task<User> GetUserByEmail(string email)
     {
         return await _repository.GetUserByEmail(email);
+    }
+    private bool CheckHash(User user, string password)
+    {
+        return BCrypt.Net.BCrypt.Verify(password, user.Password);
     }
 }
 
