@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using VC_API.Entities;
+using VC_API.Domain.Entities;
 
 namespace VC_API.Domain.Context
 {
